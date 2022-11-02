@@ -23,7 +23,7 @@ function addGS(){
                 },
                 redirect: 'follow', // manual, *follow, error
                 //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-                body: JSON.stringify({first:"Dave",phone:"098-786-8722",last:"Vlide"}) // body data type must match "Content-Type" header
+                body: JSON.stringify({body:"Dave"}) // body data type must match "Content-Type" header
         });
 
 }
